@@ -1,5 +1,4 @@
 import "./App.css";
-import Dis from "./components/demo";
 import Expenses from "./components/expenses/Expenses";
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
 
   return (
     <div className="App">
-      <Dis />
       <Expenses items={expenses} />
     </div>
   );
